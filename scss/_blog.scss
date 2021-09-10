@@ -1,0 +1,68 @@
+@import "vars";
+
+.blog {
+  padding: 60px 165px;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 419px;
+    background-image: url("../images/img\ 5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  &__title{
+    margin-top: 20px;
+    font-family: $secondary-font;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 26px;
+text-transform: capitalize;
+color: $accent;
+  }
+   
+  &__subtitle{
+    margin-top: 15px;
+    font-family: $secondary-font;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-transform: capitalize;
+color: $dark;
+  }
+
+  &__paragrav{
+    margin-top: 15px;
+    font-family: $secondary-font;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-transform: capitalize;
+color: $dark;
+
+  }
+
+  &__btn{
+    margin-top: 20px;
+border: 1px solid $dark; 
+width: 144px;
+height: 30px;
+left: 165px;
+  }
+
+  &__btn-title{
+font-family: $secondary-font;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+color: $dark;
+  }
+}
